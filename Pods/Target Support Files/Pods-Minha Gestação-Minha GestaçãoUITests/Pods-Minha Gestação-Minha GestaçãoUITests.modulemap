@@ -1,0 +1,6 @@
+framework module Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests {
+  umbrella header "Pods-Minha Gestação-Minha GestaçãoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

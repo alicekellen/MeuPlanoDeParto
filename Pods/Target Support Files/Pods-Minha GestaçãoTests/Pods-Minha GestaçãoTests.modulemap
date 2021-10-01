@@ -1,0 +1,6 @@
+framework module Pods_Minha_Gestac_a_oTests {
+  umbrella header "Pods-Minha GestaçãoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

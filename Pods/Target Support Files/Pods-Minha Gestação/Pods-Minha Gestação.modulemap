@@ -1,0 +1,6 @@
+framework module Pods_Minha_Gestac_a_o {
+  umbrella header "Pods-Minha Gestação-umbrella.h"
+
+  export *
+  module * { export * }
+}

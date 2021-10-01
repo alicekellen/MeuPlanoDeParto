@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461085BCD48083B32E067EF5 /* Pods_Minha_Gestac_a_oTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D396ACAB4EB52B47F693B5 /* Pods_Minha_Gestac_a_oTests.framework */; };
+		E4EBC76A4A61F5D50AC8A458 /* Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7538D4BFD31D61E550B189 /* Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework */; };
+		F21E69EA26FE2C940079E49D /* launch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F21E69E926FE2C940079E49D /* launch.jpeg */; };
+		F21E69F826FE2E930079E49D /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F21E69F726FE2E930079E49D /* app-icon.png */; };
+		F22DC4D226FD248000A49D67 /* img_gestante.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F22DC4D126FD248000A49D67 /* img_gestante.jpeg */; };
+		F22DC4D726FD259800A49D67 /* img_gestante2.png in Resources */ = {isa = PBXBuildFile; fileRef = F22DC4D626FD259800A49D67 /* img_gestante2.png */; };
 		F29F10F726C6B25600E52D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F10F626C6B25600E52D0C /* AppDelegate.swift */; };
 		F29F10F926C6B25600E52D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F10F826C6B25600E52D0C /* SceneDelegate.swift */; };
-		F29F10FB26C6B25600E52D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F10FA26C6B25600E52D0C /* ViewController.swift */; };
-		F29F10FE26C6B25600E52D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F10FC26C6B25600E52D0C /* Main.storyboard */; };
 		F29F110126C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29F10FF26C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld */; };
 		F29F110326C6B25700E52D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29F110226C6B25700E52D0C /* Assets.xcassets */; };
 		F29F110626C6B25700E52D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F110426C6B25700E52D0C /* LaunchScreen.storyboard */; };
 		F29F111126C6B25700E52D0C /* Minha_Gestac_a_oTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F111026C6B25700E52D0C /* Minha_Gestac_a_oTests.swift */; };
 		F29F111C26C6B25700E52D0C /* Minha_Gestac_a_oUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F111B26C6B25700E52D0C /* Minha_Gestac_a_oUITests.swift */; };
+		F2D1F41C26D563D700527E69 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D1F41B26D563D700527E69 /* Home.storyboard */; };
+		F2D1F42126D563E900527E69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1F42026D563E900527E69 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A7FD359D77C1A1DF48784E /* Pods-Minha Gestação.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha Gestação.debug.xcconfig"; path = "Target Support Files/Pods-Minha Gestação/Pods-Minha Gestação.debug.xcconfig"; sourceTree = "<group>"; };
+		49431AEACC92966C565F73A8 /* Pods-Minha Gestação-Minha GestaçãoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha Gestação-Minha GestaçãoUITests.release.xcconfig"; path = "Target Support Files/Pods-Minha Gestação-Minha GestaçãoUITests/Pods-Minha Gestação-Minha GestaçãoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBC8978F0C471620405E87CF /* Pods-Minha Gestação.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha Gestação.release.xcconfig"; path = "Target Support Files/Pods-Minha Gestação/Pods-Minha Gestação.release.xcconfig"; sourceTree = "<group>"; };
+		C755E0C53995A2DD38882F15 /* Pods-Minha GestaçãoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha GestaçãoTests.debug.xcconfig"; path = "Target Support Files/Pods-Minha GestaçãoTests/Pods-Minha GestaçãoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48F06F2D3B6E2180BE0420B /* Pods-Minha GestaçãoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha GestaçãoTests.release.xcconfig"; path = "Target Support Files/Pods-Minha GestaçãoTests/Pods-Minha GestaçãoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D69E5F95E0F78ABBE63F1152 /* Pods-Minha Gestação-Minha GestaçãoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minha Gestação-Minha GestaçãoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Minha Gestação-Minha GestaçãoUITests/Pods-Minha Gestação-Minha GestaçãoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D396ACAB4EB52B47F693B5 /* Pods_Minha_Gestac_a_oTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minha_Gestac_a_oTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7538D4BFD31D61E550B189 /* Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21E69E926FE2C940079E49D /* launch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpeg; sourceTree = "<group>"; };
+		F21E69F726FE2E930079E49D /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		F22DC4D126FD248000A49D67 /* img_gestante.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_gestante.jpeg; sourceTree = "<group>"; };
+		F22DC4D626FD259800A49D67 /* img_gestante2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_gestante2.png; sourceTree = "<group>"; };
 		F29F10F326C6B25600E52D0C /* Minha Gestação.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minha Gestação.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F10F626C6B25600E52D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29F10F826C6B25600E52D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F29F10FA26C6B25600E52D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F29F10FD26C6B25600E52D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F29F110026C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minha_Gestac_a_o.xcdatamodel; sourceTree = "<group>"; };
 		F29F110226C6B25700E52D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F29F110526C6B25700E52D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,9 @@
 		F29F111726C6B25700E52D0C /* Minha GestaçãoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minha GestaçãoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F111B26C6B25700E52D0C /* Minha_Gestac_a_oUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minha_Gestac_a_oUITests.swift; sourceTree = "<group>"; };
 		F29F111D26C6B25700E52D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D1F41B26D563D700527E69 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F2D1F42026D563E900527E69 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDA59E8B94D64582A0F360A9 /* Pods_Minha_Gestac_a_o.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minha_Gestac_a_o.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461085BCD48083B32E067EF5 /* Pods_Minha_Gestac_a_oTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EBC76A4A61F5D50AC8A458 /* Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7242052AC8A3C78383D3DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA59E8B94D64582A0F360A9 /* Pods_Minha_Gestac_a_o.framework */,
+				EC7538D4BFD31D61E550B189 /* Pods_Minha_Gestac_a_o_Minha_Gestac_a_oUITests.framework */,
+				E1D396ACAB4EB52B47F693B5 /* Pods_Minha_Gestac_a_oTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CE2215E30B649604C27E43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18A7FD359D77C1A1DF48784E /* Pods-Minha Gestação.debug.xcconfig */,
+				BBC8978F0C471620405E87CF /* Pods-Minha Gestação.release.xcconfig */,
+				D69E5F95E0F78ABBE63F1152 /* Pods-Minha Gestação-Minha GestaçãoUITests.debug.xcconfig */,
+				49431AEACC92966C565F73A8 /* Pods-Minha Gestação-Minha GestaçãoUITests.release.xcconfig */,
+				C755E0C53995A2DD38882F15 /* Pods-Minha GestaçãoTests.debug.xcconfig */,
+				D48F06F2D3B6E2180BE0420B /* Pods-Minha GestaçãoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F29F10EA26C6B25500E52D0C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				F29F110F26C6B25700E52D0C /* Minha GestaçãoTests */,
 				F29F111A26C6B25700E52D0C /* Minha GestaçãoUITests */,
 				F29F10F426C6B25600E52D0C /* Products */,
+				C8CE2215E30B649604C27E43 /* Pods */,
+				C7242052AC8A3C78383D3DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,10 @@
 		F29F10F526C6B25600E52D0C /* Minha Gestação */ = {
 			isa = PBXGroup;
 			children = (
+				F2D1F41A26D563B300527E69 /* Home */,
+				F29F113426C7055900E52D0C /* images */,
 				F29F10F626C6B25600E52D0C /* AppDelegate.swift */,
 				F29F10F826C6B25600E52D0C /* SceneDelegate.swift */,
-				F29F10FA26C6B25600E52D0C /* ViewController.swift */,
-				F29F10FC26C6B25600E52D0C /* Main.storyboard */,
 				F29F110226C6B25700E52D0C /* Assets.xcassets */,
 				F29F110426C6B25700E52D0C /* LaunchScreen.storyboard */,
 				F29F110726C6B25700E52D0C /* Info.plist */,
@@ -131,6 +177,26 @@
 			path = "Minha GestaçãoUITests";
 			sourceTree = "<group>";
 		};
+		F29F113426C7055900E52D0C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F21E69F726FE2E930079E49D /* app-icon.png */,
+				F21E69E926FE2C940079E49D /* launch.jpeg */,
+				F22DC4D626FD259800A49D67 /* img_gestante2.png */,
+				F22DC4D126FD248000A49D67 /* img_gestante.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F2D1F41A26D563B300527E69 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2D1F41B26D563D700527E69 /* Home.storyboard */,
+				F2D1F42026D563E900527E69 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29F112026C6B25700E52D0C /* Build configuration list for PBXNativeTarget "Minha Gestação" */;
 			buildPhases = (
+				51BD32B5D3B3E61378C2E84A /* [CP] Check Pods Manifest.lock */,
 				F29F10EF26C6B25500E52D0C /* Sources */,
 				F29F10F026C6B25500E52D0C /* Frameworks */,
 				F29F10F126C6B25500E52D0C /* Resources */,
@@ -155,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29F112326C6B25700E52D0C /* Build configuration list for PBXNativeTarget "Minha GestaçãoTests" */;
 			buildPhases = (
+				252A2B075A3AC7EB2F315367 /* [CP] Check Pods Manifest.lock */,
 				F29F110826C6B25700E52D0C /* Sources */,
 				F29F110926C6B25700E52D0C /* Frameworks */,
 				F29F110A26C6B25700E52D0C /* Resources */,
@@ -173,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29F112626C6B25700E52D0C /* Build configuration list for PBXNativeTarget "Minha GestaçãoUITests" */;
 			buildPhases = (
+				2C5D8DB2ED552CA54226663A /* [CP] Check Pods Manifest.lock */,
 				F29F111326C6B25700E52D0C /* Sources */,
 				F29F111426C6B25700E52D0C /* Frameworks */,
 				F29F111526C6B25700E52D0C /* Resources */,
@@ -193,6 +262,12 @@
 		F29F10EB26C6B25500E52D0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+					3,
+					4,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -234,9 +309,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D1F41C26D563D700527E69 /* Home.storyboard in Resources */,
 				F29F110626C6B25700E52D0C /* LaunchScreen.storyboard in Resources */,
 				F29F110326C6B25700E52D0C /* Assets.xcassets in Resources */,
-				F29F10FE26C6B25600E52D0C /* Main.storyboard in Resources */,
+				F21E69EA26FE2C940079E49D /* launch.jpeg in Resources */,
+				F22DC4D226FD248000A49D67 /* img_gestante.jpeg in Resources */,
+				F21E69F826FE2E930079E49D /* app-icon.png in Resources */,
+				F22DC4D726FD259800A49D67 /* img_gestante2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +335,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252A2B075A3AC7EB2F315367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minha GestaçãoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5D8DB2ED552CA54226663A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minha Gestação-Minha GestaçãoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BD32B5D3B3E61378C2E84A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minha Gestação-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F29F10EF26C6B25500E52D0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29F10FB26C6B25600E52D0C /* ViewController.swift in Sources */,
 				F29F10F726C6B25600E52D0C /* AppDelegate.swift in Sources */,
 				F29F110126C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld in Sources */,
 				F29F10F926C6B25600E52D0C /* SceneDelegate.swift in Sources */,
+				F2D1F42126D563E900527E69 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +448,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F29F10FC26C6B25600E52D0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F29F10FD26C6B25600E52D0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F29F110426C6B25700E52D0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,10 +577,12 @@
 		};
 		F29F112126C6B25700E52D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A7FD359D77C1A1DF48784E /* Pods-Minha Gestação.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8K2P23SE;
 				INFOPLIST_FILE = "Minha Gestação/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,16 +591,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.Minha-Gestac-a-o";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F29F112226C6B25700E52D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC8978F0C471620405E87CF /* Pods-Minha Gestação.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8K2P23SE;
 				INFOPLIST_FILE = "Minha Gestação/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,12 +611,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.Minha-Gestac-a-o";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		F29F112426C6B25700E52D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C755E0C53995A2DD38882F15 /* Pods-Minha GestaçãoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +639,7 @@
 		};
 		F29F112526C6B25700E52D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48F06F2D3B6E2180BE0420B /* Pods-Minha GestaçãoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +661,7 @@
 		};
 		F29F112726C6B25700E52D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69E5F95E0F78ABBE63F1152 /* Pods-Minha Gestação-Minha GestaçãoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +681,7 @@
 		};
 		F29F112826C6B25700E52D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49431AEACC92966C565F73A8 /* Pods-Minha Gestação-Minha GestaçãoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
