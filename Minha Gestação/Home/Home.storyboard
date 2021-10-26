@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -161,6 +162,17 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qh9-xa-csh">
+                                        <rect key="frame" x="273" y="187" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="GuG-3o-Ce2" kind="show" id="VlJ-R7-3sE"/>
+                                        </connections>
+                                    </button>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="on3-L9-vkr">
                                         <rect key="frame" x="303" y="182" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -256,6 +268,28 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bg-zH-0il">
+                                        <rect key="frame" x="273" y="132" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="aXD-pN-0X4" kind="show" id="pN6-nO-HKb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRi-6k-XTa">
+                                        <rect key="frame" x="273" y="239" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="sOc-At-aUO" kind="show" id="r8k-tW-jK2"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95238181574619296" green="0.88997893217029655" blue="0.87892726627573625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -283,7 +317,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gWR-I2-jog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-207.19999999999999" y="240.17991004497753"/>
+            <point key="canvasLocation" x="1082" y="-53"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="eey-wY-aUl">
+            <objects>
+                <viewController storyboardIdentifier="DialogTricotomia" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aXD-pN-0X4" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJx-9i-mAd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCg-dU-SOZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="aXD-pN-0X4" eventType="touchUpInside" id="qcL-Mc-lEx"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8M-pq-FY7">
+                                <rect key="frame" x="67" y="124" width="241" height="210"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que é Tricotomia?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMQ-xQ-dzD">
+                                        <rect key="frame" x="44" y="18" width="149" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0g-AQ-7Pp">
+                                        <rect key="frame" x="15" y="46" width="211" height="130"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="rji-dz-0BD"/>
+                                        </constraints>
+                                        <string key="text">A tricotomia é um procedimento pré-cirúrgico que tem como objetivo remover os pêlos da região a ser cortada para facilitar a visualização da região pelo médico e evitar possíveis infecções após a cirurgia.</string>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="g0g-AQ-7Pp" firstAttribute="leading" secondItem="j8M-pq-FY7" secondAttribute="leading" constant="15" id="55X-kW-Gos"/>
+                                    <constraint firstItem="CMQ-xQ-dzD" firstAttribute="top" secondItem="j8M-pq-FY7" secondAttribute="top" constant="18" id="EnQ-xP-CTh"/>
+                                    <constraint firstAttribute="trailing" secondItem="CMQ-xQ-dzD" secondAttribute="trailing" constant="48" id="Hct-3b-uan"/>
+                                    <constraint firstAttribute="width" constant="241" id="RGK-aV-Xr8"/>
+                                    <constraint firstAttribute="bottom" secondItem="g0g-AQ-7Pp" secondAttribute="bottom" constant="34" id="XJ7-zT-vaW"/>
+                                    <constraint firstItem="g0g-AQ-7Pp" firstAttribute="top" secondItem="CMQ-xQ-dzD" secondAttribute="bottom" constant="13" id="Y5o-x7-ZqV"/>
+                                    <constraint firstItem="CMQ-xQ-dzD" firstAttribute="leading" secondItem="j8M-pq-FY7" secondAttribute="leading" constant="44" id="Z2F-z1-GPI"/>
+                                    <constraint firstAttribute="trailing" secondItem="g0g-AQ-7Pp" secondAttribute="trailing" constant="15" id="xsx-HK-YDC"/>
+                                    <constraint firstAttribute="height" constant="210" id="yLC-WP-nn2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bbb-0J-teC"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="j8M-pq-FY7" firstAttribute="centerX" secondItem="WCg-dU-SOZ" secondAttribute="centerX" id="05t-T0-5bz"/>
+                            <constraint firstItem="WCg-dU-SOZ" firstAttribute="bottom" secondItem="Bbb-0J-teC" secondAttribute="bottom" id="6cc-l7-K9D"/>
+                            <constraint firstItem="j8M-pq-FY7" firstAttribute="top" secondItem="Bbb-0J-teC" secondAttribute="top" constant="124" id="7iQ-8r-cb1"/>
+                            <constraint firstItem="j8M-pq-FY7" firstAttribute="leading" secondItem="Bbb-0J-teC" secondAttribute="leading" constant="67" id="Tn1-Qg-l4f"/>
+                            <constraint firstItem="WCg-dU-SOZ" firstAttribute="top" secondItem="Bbb-0J-teC" secondAttribute="top" id="edN-uO-oml"/>
+                            <constraint firstItem="Bbb-0J-teC" firstAttribute="bottom" secondItem="j8M-pq-FY7" secondAttribute="bottom" constant="226" id="lCo-0q-vPf"/>
+                            <constraint firstItem="WCg-dU-SOZ" firstAttribute="leading" secondItem="Bbb-0J-teC" secondAttribute="leading" id="tti-Pa-F7b"/>
+                            <constraint firstItem="WCg-dU-SOZ" firstAttribute="trailing" secondItem="Bbb-0J-teC" secondAttribute="trailing" id="y5g-Yu-Zh8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="80B-ID-FaR"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hlp-gR-RtM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866" y="-449"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Msd-vi-ffS">
@@ -320,6 +422,17 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKH-yn-Cby">
+                                        <rect key="frame" x="276" y="81" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="3A6-jZ-rDj" kind="show" id="jxT-vW-cO2"/>
+                                        </connections>
+                                    </button>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Tzg-AG-Upi">
                                         <rect key="frame" x="303" y="74" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -398,6 +511,17 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQe-gP-6mI">
+                                        <rect key="frame" x="276" y="131" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Kbw-bg-6wY" kind="show" id="3nz-GR-Feg"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95238181570000002" green="0.88997893220000002" blue="0.87892726629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -429,7 +553,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s4W-OH-eLU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-207.19999999999999" y="-415.59220389805103"/>
+            <point key="canvasLocation" x="-390" y="-680"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="tRS-fM-w2g">
@@ -561,6 +685,17 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEh-01-2r4">
+                                        <rect key="frame" x="276" y="140" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="pb0-pR-kZB" kind="show" id="bz3-3x-gYQ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95238181570000002" green="0.88997893220000002" blue="0.87892726629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -592,7 +727,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9nM-bd-5Us" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1119" y="-744"/>
+            <point key="canvasLocation" x="-1119" y="-1376"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="dx4-eX-eAZ">
@@ -758,6 +893,17 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leS-68-Uhk">
+                                        <rect key="frame" x="273" y="175" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="person.fill.questionmark" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="znF-VR-TsL" kind="show" id="BFN-Rl-cE4"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95238181570000002" green="0.88997893220000002" blue="0.87892726629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -791,5 +937,414 @@
             </objects>
             <point key="canvasLocation" x="-1119" y="717"/>
         </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="vM8-hK-sAV">
+            <objects>
+                <viewController storyboardIdentifier="DialogEnema" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GuG-3o-Ce2" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sah-vf-zWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gef-nc-8J9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="GuG-3o-Ce2" eventType="touchUpInside" id="4ag-QC-dWD"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15O-dD-8kU">
+                                <rect key="frame" x="67" y="124" width="241" height="210"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que é Enema?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVX-fi-2fr">
+                                        <rect key="frame" x="44" y="18" width="149" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="wuB-p3-8TF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbN-5u-4fQ">
+                                        <rect key="frame" x="15" y="46" width="211" height="130"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="211" id="dSy-0e-x0X"/>
+                                            <constraint firstAttribute="height" constant="130" id="f1X-Tk-wAg"/>
+                                        </constraints>
+                                        <string key="text">O clister, enema ou chuca, é um procedimento que consiste na colocação de um pequeno tubo pelo ânus, no qual é introduzida água ou alguma outra substância com o objetivo de lavar o intestino.</string>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="dbN-5u-4fQ" firstAttribute="top" secondItem="VVX-fi-2fr" secondAttribute="bottom" constant="13" id="37F-us-ffm"/>
+                                    <constraint firstAttribute="bottom" secondItem="dbN-5u-4fQ" secondAttribute="bottom" constant="34" id="JPF-X0-yeZ"/>
+                                    <constraint firstItem="dbN-5u-4fQ" firstAttribute="leading" secondItem="15O-dD-8kU" secondAttribute="leading" constant="15" id="gar-LV-inO"/>
+                                    <constraint firstItem="VVX-fi-2fr" firstAttribute="top" secondItem="15O-dD-8kU" secondAttribute="top" constant="18" id="h4n-wy-s5C"/>
+                                    <constraint firstAttribute="trailing" secondItem="dbN-5u-4fQ" secondAttribute="trailing" constant="15" id="rt0-dS-pO9"/>
+                                    <constraint firstAttribute="trailing" secondItem="VVX-fi-2fr" secondAttribute="trailing" constant="48" id="udT-4Q-GHl"/>
+                                    <constraint firstItem="VVX-fi-2fr" firstAttribute="leading" secondItem="15O-dD-8kU" secondAttribute="leading" constant="44" id="usq-3e-wBG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AXR-7b-WEY"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="gef-nc-8J9" firstAttribute="bottom" secondItem="AXR-7b-WEY" secondAttribute="bottom" id="4ML-qj-MoB"/>
+                            <constraint firstItem="15O-dD-8kU" firstAttribute="top" secondItem="AXR-7b-WEY" secondAttribute="top" constant="124" id="BOP-rh-I6x"/>
+                            <constraint firstItem="15O-dD-8kU" firstAttribute="leading" secondItem="AXR-7b-WEY" secondAttribute="leading" constant="67" id="EFK-iK-W05"/>
+                            <constraint firstItem="gef-nc-8J9" firstAttribute="top" secondItem="AXR-7b-WEY" secondAttribute="top" id="I0Z-nW-1xT"/>
+                            <constraint firstItem="15O-dD-8kU" firstAttribute="centerX" secondItem="gef-nc-8J9" secondAttribute="centerX" id="Mo7-rM-5JL"/>
+                            <constraint firstItem="gef-nc-8J9" firstAttribute="trailing" secondItem="AXR-7b-WEY" secondAttribute="trailing" id="gFn-mP-AeI"/>
+                            <constraint firstItem="AXR-7b-WEY" firstAttribute="bottom" secondItem="15O-dD-8kU" secondAttribute="bottom" constant="226" id="vLx-UG-fOW"/>
+                            <constraint firstItem="gef-nc-8J9" firstAttribute="leading" secondItem="AXR-7b-WEY" secondAttribute="leading" id="zUc-Pc-urI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kya-RS-aus"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFC-uF-atF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2526" y="-29"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="mBD-lp-OEs">
+            <objects>
+                <viewController storyboardIdentifier="DialogSoro" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sOc-At-aUO" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tfN-tL-p4n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Su3-r7-XIM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="sOc-At-aUO" eventType="touchUpInside" id="pVF-OH-L9A"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4f-F9-kwE">
+                                <rect key="frame" x="47" y="112" width="281" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRc-4K-yhK">
+                                        <rect key="frame" x="15" y="55" width="250" height="257"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="257" id="71y-m2-GQw"/>
+                                        </constraints>
+                                        <string key="text">A ocitocina sintética é um método farmacológico muito utilizado na prática para induzir o trabalho de parto, quando este não acontece de forma fisiológica por alguma condição clínica ou física da gestante ou do bebê. A ocitocina sintética quando utilizada de forma inadequada para induzir o trabalho de parto, pode ocasionar sérios problemas materno-fetais, como: Hiperestimulação uterina, ruptura uterina, sofrimento fetal, contrações uterinas dolorosas, além do aumento da taxa de cesariana.</string>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="O que é Ocitocina Sintética?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyL-mr-hhe">
+                                        <rect key="frame" x="15" y="25" width="250" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="336" id="0NH-60-rRl"/>
+                                    <constraint firstItem="qRc-4K-yhK" firstAttribute="top" secondItem="nyL-mr-hhe" secondAttribute="bottom" constant="15" id="1v5-SL-GOJ"/>
+                                    <constraint firstItem="qRc-4K-yhK" firstAttribute="trailing" secondItem="nyL-mr-hhe" secondAttribute="trailing" id="BD0-Zh-4bK"/>
+                                    <constraint firstItem="qRc-4K-yhK" firstAttribute="centerX" secondItem="c4f-F9-kwE" secondAttribute="centerX" id="fbt-rf-HI7"/>
+                                    <constraint firstAttribute="bottom" secondItem="qRc-4K-yhK" secondAttribute="bottom" constant="24" id="j32-wr-K3i"/>
+                                    <constraint firstItem="qRc-4K-yhK" firstAttribute="leading" secondItem="c4f-F9-kwE" secondAttribute="leading" constant="15" id="mAD-Ng-Flr"/>
+                                    <constraint firstItem="qRc-4K-yhK" firstAttribute="leading" secondItem="nyL-mr-hhe" secondAttribute="leading" id="xRE-Ku-mu9"/>
+                                    <constraint firstAttribute="width" constant="281" id="y0K-XW-Oiw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7TJ-ev-51K"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="c4f-F9-kwE" firstAttribute="leading" secondItem="7TJ-ev-51K" secondAttribute="leading" constant="47" id="1pK-BB-ghG"/>
+                            <constraint firstItem="c4f-F9-kwE" firstAttribute="top" secondItem="7TJ-ev-51K" secondAttribute="top" constant="112" id="7Pv-1Z-eAP"/>
+                            <constraint firstItem="Su3-r7-XIM" firstAttribute="leading" secondItem="7TJ-ev-51K" secondAttribute="leading" id="7pU-iu-nC6"/>
+                            <constraint firstItem="7TJ-ev-51K" firstAttribute="trailing" secondItem="c4f-F9-kwE" secondAttribute="trailing" constant="47" id="KeX-4R-iLa"/>
+                            <constraint firstItem="Su3-r7-XIM" firstAttribute="trailing" secondItem="7TJ-ev-51K" secondAttribute="trailing" id="WmR-bJ-fXA"/>
+                            <constraint firstItem="Su3-r7-XIM" firstAttribute="top" secondItem="7TJ-ev-51K" secondAttribute="top" id="XVu-Dw-kgo"/>
+                            <constraint firstItem="Su3-r7-XIM" firstAttribute="bottom" secondItem="7TJ-ev-51K" secondAttribute="bottom" id="mJO-Qb-4rr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mqu-ra-TRK"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufm-Gk-c1b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1865" y="364"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="eJf-xm-uST">
+            <objects>
+                <viewController storyboardIdentifier="DialogAnestesia" useStoryboardIdentifierAsRestorationIdentifier="YES" id="znF-VR-TsL" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6FM-df-Br1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6k-ok-cEd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="znF-VR-TsL" eventType="touchUpInside" id="lvw-zp-uFc"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NhC-F2-xyg">
+                                <rect key="frame" x="47" y="112" width="281" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXr-eT-FnK">
+                                        <rect key="frame" x="15" y="55" width="250" height="257"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="257" id="i9e-qt-xxs"/>
+                                        </constraints>
+                                        <mutableString key="text">A anestesia peridural, também chamada de anestesia epidural, é um tipo de anestesia que bloqueia a dor de apenas uma região do corpo, geralmente da cintura para baixo que inclui abdômen, costas e pernas, mas a pessoa ainda pode sentir o toque e a pressão. Esse tipo de anestesia é feita de forma que a pessoa possa se manter acordada durante a cirurgia, pois não afeta o nível de consciência, e costuma ser utilizada durante procedimentos cirúrgicos simples, como a cesariana ou em cirurgias ginecológicas ou estéticas.</mutableString>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="O que é Anestesia Perudural?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAo-Sn-lBi">
+                                        <rect key="frame" x="15" y="25" width="250" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="Agp-h4-Pk6"/>
+                                    <constraint firstItem="HXr-eT-FnK" firstAttribute="centerX" secondItem="NhC-F2-xyg" secondAttribute="centerX" id="Ugh-NU-oEK"/>
+                                    <constraint firstItem="HXr-eT-FnK" firstAttribute="top" secondItem="EAo-Sn-lBi" secondAttribute="bottom" constant="15" id="Wgm-FI-h2P"/>
+                                    <constraint firstAttribute="bottom" secondItem="HXr-eT-FnK" secondAttribute="bottom" constant="24" id="fht-NH-cpp"/>
+                                    <constraint firstItem="HXr-eT-FnK" firstAttribute="leading" secondItem="EAo-Sn-lBi" secondAttribute="leading" id="gDD-oH-ACQ"/>
+                                    <constraint firstItem="HXr-eT-FnK" firstAttribute="leading" secondItem="NhC-F2-xyg" secondAttribute="leading" constant="15" id="lVh-Qi-dKw"/>
+                                    <constraint firstAttribute="height" constant="336" id="tkW-Nf-dbx"/>
+                                    <constraint firstItem="HXr-eT-FnK" firstAttribute="trailing" secondItem="EAo-Sn-lBi" secondAttribute="trailing" id="ty3-2B-bff"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pwf-1n-gOU"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="NhC-F2-xyg" firstAttribute="leading" secondItem="Pwf-1n-gOU" secondAttribute="leading" constant="47" id="0XV-NG-dp5"/>
+                            <constraint firstItem="i6k-ok-cEd" firstAttribute="top" secondItem="Pwf-1n-gOU" secondAttribute="top" id="B2e-Kd-MZD"/>
+                            <constraint firstItem="i6k-ok-cEd" firstAttribute="bottom" secondItem="Pwf-1n-gOU" secondAttribute="bottom" id="Kwv-4W-WxK"/>
+                            <constraint firstItem="NhC-F2-xyg" firstAttribute="top" secondItem="Pwf-1n-gOU" secondAttribute="top" constant="112" id="Mpj-LQ-fqy"/>
+                            <constraint firstItem="i6k-ok-cEd" firstAttribute="leading" secondItem="Pwf-1n-gOU" secondAttribute="leading" id="hSM-4r-gWA"/>
+                            <constraint firstItem="Pwf-1n-gOU" firstAttribute="trailing" secondItem="NhC-F2-xyg" secondAttribute="trailing" constant="47" id="kz6-Re-qCO"/>
+                            <constraint firstItem="i6k-ok-cEd" firstAttribute="trailing" secondItem="Pwf-1n-gOU" secondAttribute="trailing" id="veo-pq-rku"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y38-Jo-9JI"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulS-LJ-a00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-142" y="717"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="Gnj-j8-dmh">
+            <objects>
+                <viewController storyboardIdentifier="DialogKristeller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kbw-bg-6wY" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aKn-pk-Zhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaZ-hq-ZFp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="Kbw-bg-6wY" eventType="touchUpInside" id="obG-d8-X1y"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFg-k2-v3m">
+                                <rect key="frame" x="47" y="112" width="281" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjO-0U-SFY">
+                                        <rect key="frame" x="15" y="55" width="250" height="257"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="257" id="926-Vl-KpX"/>
+                                        </constraints>
+                                        <mutableString key="text">A manobra de Kristeller é uma técnica realizada com o objetivo de acelerar o trabalho de parto em que é realizada pressão sobre o útero da mulher, diminuindo o período expulsivo. No entanto, apesar dessa técnica ser bastante utilizada, não existem evidências que comprovem o seu benefício, além de que expõe tanto a mulher quanto o bebê a riscos. Pode causar possibilidade de fratura da costela, aumento do risco de hemorragias, deslocamento da placenta, possibilidade de ruptura de alguns órgãos, como baço, fígado e útero.</mutableString>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="O que é Manobra de Kristeller?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvb-nI-YYq">
+                                        <rect key="frame" x="15" y="25" width="250" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="336" id="2sd-NW-bqn"/>
+                                    <constraint firstAttribute="bottom" secondItem="UjO-0U-SFY" secondAttribute="bottom" constant="24" id="Ccv-kS-Da5"/>
+                                    <constraint firstItem="UjO-0U-SFY" firstAttribute="trailing" secondItem="bvb-nI-YYq" secondAttribute="trailing" id="EXN-hF-Pvi"/>
+                                    <constraint firstItem="UjO-0U-SFY" firstAttribute="top" secondItem="bvb-nI-YYq" secondAttribute="bottom" constant="15" id="Id5-Z5-O6E"/>
+                                    <constraint firstAttribute="width" constant="281" id="Y3n-Oa-Dys"/>
+                                    <constraint firstItem="UjO-0U-SFY" firstAttribute="leading" secondItem="RFg-k2-v3m" secondAttribute="leading" constant="15" id="cYb-Or-IuY"/>
+                                    <constraint firstItem="UjO-0U-SFY" firstAttribute="leading" secondItem="bvb-nI-YYq" secondAttribute="leading" id="egZ-kn-bVe"/>
+                                    <constraint firstItem="UjO-0U-SFY" firstAttribute="centerX" secondItem="RFg-k2-v3m" secondAttribute="centerX" id="tJz-8O-Qpj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZPn-nr-NfB"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="ZPn-nr-NfB" firstAttribute="trailing" secondItem="RFg-k2-v3m" secondAttribute="trailing" constant="47" id="0EF-zN-QfC"/>
+                            <constraint firstItem="aaZ-hq-ZFp" firstAttribute="leading" secondItem="ZPn-nr-NfB" secondAttribute="leading" id="4ZK-SD-NnC"/>
+                            <constraint firstItem="aaZ-hq-ZFp" firstAttribute="trailing" secondItem="ZPn-nr-NfB" secondAttribute="trailing" id="EKo-bE-q6Z"/>
+                            <constraint firstItem="aaZ-hq-ZFp" firstAttribute="bottom" secondItem="ZPn-nr-NfB" secondAttribute="bottom" id="L4M-iB-XsE"/>
+                            <constraint firstItem="aaZ-hq-ZFp" firstAttribute="top" secondItem="ZPn-nr-NfB" secondAttribute="top" id="OfR-Ug-Wme"/>
+                            <constraint firstItem="RFg-k2-v3m" firstAttribute="leading" secondItem="ZPn-nr-NfB" secondAttribute="leading" constant="47" id="bSC-zC-ceG"/>
+                            <constraint firstItem="RFg-k2-v3m" firstAttribute="top" secondItem="ZPn-nr-NfB" secondAttribute="top" constant="112" id="ycV-Ez-9rM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JKL-8T-2ul"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxY-nz-R7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-322"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="5bS-mn-pgc">
+            <objects>
+                <viewController storyboardIdentifier="DialogEpisiotomia" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3A6-jZ-rDj" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Etr-xU-j08">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3I-qY-zp4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="3A6-jZ-rDj" eventType="touchUpInside" id="YFh-z8-jme"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgw-2L-qhS">
+                                <rect key="frame" x="47" y="112" width="281" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8c-5k-LHJ">
+                                        <rect key="frame" x="15" y="55" width="250" height="257"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="257" id="y3f-CJ-hOX"/>
+                                        </constraints>
+                                        <string key="text">A Episiotomia é um procedimento cirúrgico que consiste em uma incisão no períneo — a região entre o ânus e a vagina — para facilitar a passagem do bebê, conhecida popularmente como "o pique". É um procedimento agressivo e com alta possibilidade de complicações, como surgimento de hematomas e infecção. Além de provocar um grande desconforto no pós-parto. O músculo é sensível, então a mulher passa a sentir dor para sentar.</string>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="O que é Episiotomia?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-wm-7VW">
+                                        <rect key="frame" x="15" y="25" width="250" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="M8c-5k-LHJ" firstAttribute="trailing" secondItem="7Np-wm-7VW" secondAttribute="trailing" id="1Fg-dN-1ui"/>
+                                    <constraint firstItem="M8c-5k-LHJ" firstAttribute="centerX" secondItem="cgw-2L-qhS" secondAttribute="centerX" id="1Nt-HJ-Q98"/>
+                                    <constraint firstItem="M8c-5k-LHJ" firstAttribute="leading" secondItem="7Np-wm-7VW" secondAttribute="leading" id="CIU-xd-7k2"/>
+                                    <constraint firstAttribute="bottom" secondItem="M8c-5k-LHJ" secondAttribute="bottom" constant="24" id="ED8-bs-Zr9"/>
+                                    <constraint firstAttribute="width" constant="281" id="P4T-v4-GHk"/>
+                                    <constraint firstItem="M8c-5k-LHJ" firstAttribute="top" secondItem="7Np-wm-7VW" secondAttribute="bottom" constant="15" id="eRU-NC-Kjd"/>
+                                    <constraint firstItem="M8c-5k-LHJ" firstAttribute="leading" secondItem="cgw-2L-qhS" secondAttribute="leading" constant="15" id="le2-ML-c5v"/>
+                                    <constraint firstAttribute="height" constant="336" id="vi6-sF-WwI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xms-iD-n2L"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="I3I-qY-zp4" firstAttribute="top" secondItem="Xms-iD-n2L" secondAttribute="top" id="6w9-dW-70a"/>
+                            <constraint firstItem="I3I-qY-zp4" firstAttribute="bottom" secondItem="Xms-iD-n2L" secondAttribute="bottom" id="C4S-5c-1ET"/>
+                            <constraint firstItem="I3I-qY-zp4" firstAttribute="leading" secondItem="Xms-iD-n2L" secondAttribute="leading" id="DOP-sJ-JpU"/>
+                            <constraint firstItem="cgw-2L-qhS" firstAttribute="leading" secondItem="Xms-iD-n2L" secondAttribute="leading" constant="47" id="JjG-eQ-V1h"/>
+                            <constraint firstItem="Xms-iD-n2L" firstAttribute="trailing" secondItem="cgw-2L-qhS" secondAttribute="trailing" constant="47" id="LbI-vT-ffx"/>
+                            <constraint firstItem="I3I-qY-zp4" firstAttribute="trailing" secondItem="Xms-iD-n2L" secondAttribute="trailing" id="iXO-oW-xXV"/>
+                            <constraint firstItem="cgw-2L-qhS" firstAttribute="top" secondItem="Xms-iD-n2L" secondAttribute="top" constant="112" id="trb-rf-rMm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="z8v-8m-bId"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUL-TZ-BqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-958"/>
+        </scene>
+        <!--Dialog View Controller-->
+        <scene sceneID="Gj9-Ws-hUu">
+            <objects>
+                <viewController storyboardIdentifier="DialogNitratoDePrata" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pb0-pR-kZB" customClass="DialogViewController" customModule="Minha_Gestac_a_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="akH-os-WRL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHE-qW-p1X">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+                                <connections>
+                                    <action selector="GoBackHome:" destination="pb0-pR-kZB" eventType="touchUpInside" id="n7b-Hc-5uf"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Is8-kO-Pvr">
+                                <rect key="frame" x="47" y="112" width="281" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raK-Ii-SsW">
+                                        <rect key="frame" x="15" y="55" width="250" height="257"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="257" id="OiQ-oU-xc7"/>
+                                        </constraints>
+                                        <mutableString key="text">O Nitrato de Prata é uma substância colocada nos olhos do recém-nascido focando a prevenção da conjuntivite causada pela bactéria da gonorréia, doença muito comum na década de 70. O nitrato de prata nos olhos do recém-nascido pode causar conjuntivite química, grande irritação nos olhos, além de ser extremamente doloroso, arder os olhos do bebê e ainda manchar sua pele na hora de ser pingado. A gonorréia não é uma doença muito comum nos tempos de hoje e é possível detectá-la através de exame durante o pré-natal.</mutableString>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="O que é Colírio de Nitrato de Prata?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mup-Sx-q0E">
+                                        <rect key="frame" x="15" y="25" width="250" height="15"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="raK-Ii-SsW" firstAttribute="leading" secondItem="Is8-kO-Pvr" secondAttribute="leading" constant="15" id="74j-tM-hFU"/>
+                                    <constraint firstItem="raK-Ii-SsW" firstAttribute="trailing" secondItem="mup-Sx-q0E" secondAttribute="trailing" id="7sW-er-4KS"/>
+                                    <constraint firstAttribute="width" constant="281" id="Abu-VY-kcw"/>
+                                    <constraint firstItem="raK-Ii-SsW" firstAttribute="centerX" secondItem="Is8-kO-Pvr" secondAttribute="centerX" id="X6u-0p-eeI"/>
+                                    <constraint firstAttribute="height" constant="336" id="caV-b8-oyF"/>
+                                    <constraint firstItem="raK-Ii-SsW" firstAttribute="top" secondItem="mup-Sx-q0E" secondAttribute="bottom" constant="15" id="e6h-Ul-aAI"/>
+                                    <constraint firstItem="raK-Ii-SsW" firstAttribute="leading" secondItem="mup-Sx-q0E" secondAttribute="leading" id="hIV-pA-Oq2"/>
+                                    <constraint firstAttribute="bottom" secondItem="raK-Ii-SsW" secondAttribute="bottom" constant="24" id="vic-5R-ZQd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="McC-0t-0OB"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="RHE-qW-p1X" firstAttribute="leading" secondItem="McC-0t-0OB" secondAttribute="leading" id="0Bo-dO-vNu"/>
+                            <constraint firstItem="RHE-qW-p1X" firstAttribute="bottom" secondItem="McC-0t-0OB" secondAttribute="bottom" id="6Vp-Yv-O1S"/>
+                            <constraint firstItem="RHE-qW-p1X" firstAttribute="trailing" secondItem="McC-0t-0OB" secondAttribute="trailing" id="6aI-w2-vzV"/>
+                            <constraint firstItem="McC-0t-0OB" firstAttribute="trailing" secondItem="Is8-kO-Pvr" secondAttribute="trailing" constant="47" id="MhP-6B-I90"/>
+                            <constraint firstItem="Is8-kO-Pvr" firstAttribute="top" secondItem="McC-0t-0OB" secondAttribute="top" constant="112" id="duH-F2-el3"/>
+                            <constraint firstItem="Is8-kO-Pvr" firstAttribute="leading" secondItem="McC-0t-0OB" secondAttribute="leading" constant="47" id="mTM-SF-3SB"/>
+                            <constraint firstItem="RHE-qW-p1X" firstAttribute="top" secondItem="McC-0t-0OB" secondAttribute="top" id="mnb-cA-ZGy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MzX-0A-Kbt"/>
+                    <size key="freeformSize" width="375" height="580"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xjD-ei-eXG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-391" y="-1376"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

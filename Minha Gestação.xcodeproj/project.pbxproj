@@ -13,6 +13,7 @@
 		F21E69F826FE2E930079E49D /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F21E69F726FE2E930079E49D /* app-icon.png */; };
 		F22DC4D226FD248000A49D67 /* img_gestante.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F22DC4D126FD248000A49D67 /* img_gestante.jpeg */; };
 		F22DC4D726FD259800A49D67 /* img_gestante2.png in Resources */ = {isa = PBXBuildFile; fileRef = F22DC4D626FD259800A49D67 /* img_gestante2.png */; };
+		F275484E27288C7500DE5504 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275484D27288C7500DE5504 /* DialogViewController.swift */; };
 		F29F10F726C6B25600E52D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F10F626C6B25600E52D0C /* AppDelegate.swift */; };
 		F29F10F926C6B25600E52D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F10F826C6B25600E52D0C /* SceneDelegate.swift */; };
 		F29F110126C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29F10FF26C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld */; };
@@ -54,6 +55,7 @@
 		F21E69F726FE2E930079E49D /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		F22DC4D126FD248000A49D67 /* img_gestante.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_gestante.jpeg; sourceTree = "<group>"; };
 		F22DC4D626FD259800A49D67 /* img_gestante2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_gestante2.png; sourceTree = "<group>"; };
+		F275484D27288C7500DE5504 /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
 		F29F10F326C6B25600E52D0C /* Minha Gestação.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minha Gestação.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F10F626C6B25600E52D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29F10F826C6B25600E52D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F275484927288C4C00DE5504 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				F275484D27288C7500DE5504 /* DialogViewController.swift */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
 		F29F10EA26C6B25500E52D0C = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +157,7 @@
 		F29F10F526C6B25600E52D0C /* Minha Gestação */ = {
 			isa = PBXGroup;
 			children = (
+				F275484927288C4C00DE5504 /* Dialogs */,
 				F2D1F41A26D563B300527E69 /* Home */,
 				F29F113426C7055900E52D0C /* images */,
 				F29F10F626C6B25600E52D0C /* AppDelegate.swift */,
@@ -411,6 +422,7 @@
 			files = (
 				F29F10F726C6B25600E52D0C /* AppDelegate.swift in Sources */,
 				F29F110126C6B25600E52D0C /* Minha_Gestac_a_o.xcdatamodeld in Sources */,
+				F275484E27288C7500DE5504 /* DialogViewController.swift in Sources */,
 				F29F10F926C6B25600E52D0C /* SceneDelegate.swift in Sources */,
 				F2D1F42126D563E900527E69 /* HomeViewController.swift in Sources */,
 			);
